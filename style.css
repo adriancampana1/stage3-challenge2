@@ -195,3 +195,115 @@ footer .button {
 footer .button:hover {
     background: #c7314f;
 }
+
+/*  */
+
+@media (max-width: 1280px) {
+    .page {
+        width: 40rem;
+    }
+    footer .button {
+        padding: 15px 100px;
+    }
+    header h1 {
+        font-size: 40px;
+    }
+    header p {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 870px) {
+    .page {
+        width: 30rem;
+    }
+    footer .button {
+        padding: 10px 100px;
+    }
+    footer {
+        padding: 20px 50px;
+    }
+    form {
+        margin-top: 25px;
+        padding: 50px;
+    }
+    header {
+        margin-top: 6rem;
+    }
+    header h1 {
+        font-size: 36px;
+    }
+    header p {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+    .col-2 {
+        display: block;
+    }
+
+    .col-3 {
+        display: block;
+    }
+
+    .col-3 .input-wrapper + .input-wrapper {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 670px) {
+    .page {
+        width: 28rem;
+    }
+    footer .button {
+        padding: 10px 100px;
+    }
+    footer {
+        padding: 20px 50px;
+    }
+    form {
+        margin-top: 25px;
+        padding: 35px;
+    }
+    header {
+        margin-top: 5rem;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .page {
+        width: 23rem;
+    }
+    footer .button {
+        padding: 5px 70px;
+    }
+    footer {
+        padding: 10px 40px;
+    }
+    form {
+        margin-top: 25px;
+        padding: 35px;
+    }
+    form legend {
+        font-size: 18px;
+    }
+    .input-wrapper label {
+        font-size: 12px;
+    }
+    header {
+        margin-top: 5rem;
+    }
+    header h1 {
+        font-size: 30px;
+    }
+    header p {
+        font-size: 12px;
+        padding-top: 10px;
+    }
+}
